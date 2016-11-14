@@ -1,0 +1,8 @@
+20160713 mavis/perl/mavis_tacplus_radius.pl: RADIUS_DICTIONARY environment variable may be used to specify alternate RADIUS dictionary file
+20160730 tac_plus: Don't segfault for misconfigured log destinations
+20160730 tac_plus: "default group = ..." in host context sets group membership for users that don't have any. See the documentation for details.
+20160731 tac_plus: Issue a warning if default group is not found
+20160731 mavis/perl: rewrite hardcoded paths on install
+20161018 tac_plus: ACLs: switch realm comparision to aaa realm
+20161029 mavis/perl/mavis_tacplus_ldap.pl: Only request required LDAP attributes to speed up ldapsearch. Thanks to Garry Harthill <gazzerh@gmail.com>.
+
